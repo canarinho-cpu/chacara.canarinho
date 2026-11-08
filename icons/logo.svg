@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Cabana com um canarinho no telhado (desenho padrão do ícone; o admin pode trocar pela logo) -->
+  <path d="M28 132 128 46l100 86" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M52 124v86h152v-86" fill="none" stroke="#ffffff" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M108 210v-50h40v50" fill="none" stroke="#ffffff" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M68 150h26M162 150h26" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <g transform="translate(150 40)">
+    <ellipse cx="34" cy="30" rx="30" ry="22" fill="#ffd21f"/>
+    <circle cx="58" cy="14" r="15" fill="#ffd21f"/>
+    <path d="M72 12l14 4-14 5z" fill="#f08c00"/>
+    <circle cx="61" cy="11" r="3" fill="#1b1b1b"/>
+    <path d="M10 26c8-4 20-2 26 8-10 4-20 2-26-8z" fill="#f2b705"/>
+    <path d="M6 34 -8 30l10 10z" fill="#f2b705"/>
+  </g>
+</svg>

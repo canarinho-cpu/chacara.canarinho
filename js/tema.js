@@ -1,0 +1,1 @@
+(function(){try{var a=document.documentElement,e=localStorage.getItem("tema");(e==="claro"||e==="escuro")&&a.setAttribute("data-theme",e==="escuro"?"dark":"light");var t=localStorage.getItem("cor-app");t&&/^#[0-9a-f]{6}$/.test(t)&&a.style.setProperty("--brand",t)}catch{}document.addEventListener("gesturestart",function(r){r.preventDefault()})})();

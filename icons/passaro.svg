@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <!-- Canarinho amarelo num galho (ilustração padrão das telas; o admin troca em Menu › Aparência) -->
+  <defs>
+    <linearGradient id="corpo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe14d"/>
+      <stop offset="1" stop-color="#f7b500"/>
+    </linearGradient>
+    <linearGradient id="asa" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7c21b"/>
+      <stop offset="1" stop-color="#e09a00"/>
+    </linearGradient>
+  </defs>
+  <!-- galho e folhas -->
+  <path d="M28 186 C80 176 150 178 214 168" fill="none" stroke="#7a5230" stroke-width="9" stroke-linecap="round"/>
+  <path d="M176 172 c10 -18 30 -24 42 -20 c-6 14 -24 24 -42 20z" fill="#5b9a4a"/>
+  <path d="M58 182 c-8 -16 -26 -22 -38 -18 c6 13 22 21 38 18z" fill="#6fb35a"/>
+  <!-- cauda -->
+  <path d="M74 150 L30 168 L44 140 Z" fill="url(#asa)"/>
+  <!-- patinhas -->
+  <path d="M112 166 v14 M128 166 v14" stroke="#e08a00" stroke-width="5" stroke-linecap="round"/>
+  <!-- corpo -->
+  <ellipse cx="118" cy="130" rx="54" ry="42" fill="url(#corpo)"/>
+  <!-- barriga -->
+  <ellipse cx="128" cy="144" rx="30" ry="22" fill="#fff3b0" opacity=".85"/>
+  <!-- asa -->
+  <path d="M84 118 c18 -10 46 -6 58 14 c-18 14 -46 14 -62 0 c-2 -6 0 -11 4 -14z" fill="url(#asa)"/>
+  <path d="M96 128 c10 2 22 2 32 -2 M92 136 c12 3 26 3 36 -1" stroke="#c98500" stroke-width="3" fill="none" stroke-linecap="round" opacity=".6"/>
+  <!-- cabeça -->
+  <circle cx="160" cy="92" r="32" fill="url(#corpo)"/>
+  <!-- bico -->
+  <path d="M188 88 L212 94 L188 102 Z" fill="#f08c00"/>
+  <!-- olho -->
+  <circle cx="168" cy="86" r="6.5" fill="#1b1b1b"/>
+  <circle cx="170.5" cy="83.5" r="2.2" fill="#fff"/>
+  <!-- bochecha -->
+  <circle cx="176" cy="102" r="6" fill="#ff9b6b" opacity=".55"/>
+  <!-- topete -->
+  <path d="M150 62 c2 -12 12 -16 18 -12 c-6 2 -8 8 -6 14z" fill="#f7c21b"/>
+</svg>
