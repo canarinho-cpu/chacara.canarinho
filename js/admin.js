@@ -537,7 +537,7 @@ import{sb as q,state as j,$ as u,$$ as ma,view as Va,go as ka,toast as L,fail as
       <li>Cada cliente vê só os próprios dados. As regras ficam no banco: esconder um botão no app nunca libera nada.</li>
       <li>As chaves (IA, Gmail, notificações) ficam só no servidor, nunca no app.</li>
       <li>Fotos de perfil e comprovantes ficam em pastas privadas.</li>
-      <li>Conversas arquivadas somem para o cliente em 30 dias e continuam com a equipe. O cliente pode excluir a conta (Perfil): aí as conversas dele são apagadas; o histórico de hospedagens continua, como explica a Política de Privacidade.</li>
+      <li>Conversas arquivadas somem para o cliente em 30 dias e continuam com a equipe. O cliente pode excluir a conta (Perfil): as conversas dele ficam com a equipe por 5 anos, só para consulta, e depois são apagadas; o histórico de hospedagens continua, como explica a Política de Privacidade.</li>
       <li><b>Novo administrador</b>: a pessoa entra no app uma vez e você roda no SQL Editor do Supabase:<br><code>insert into public.admins (user_id) select id from auth.users where email = 'email@dela.com';</code></li>
     </ul>`]];async function Ie(s){s.innerHTML=`
     <input type="search" id="ajuda-busca" placeholder="Buscar na ajuda (ex.: notificação, Pix, ícone)">
