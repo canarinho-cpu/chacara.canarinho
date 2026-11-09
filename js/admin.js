@@ -323,7 +323,6 @@ import{sb as y,state as j,$ as v,$$ as ma,view as Va,go as ka,toast as E,fail as
       <label class="field"><span>Informações para a IA</span><textarea name="prompt" rows="16" maxlength="12000">${p(e.prompt_ia)}</textarea></label>
       <p class="small muted"><span id="cont"></span> / 12000 caracteres</p>
       <button class="btn">Salvar</button>
-      <a class="btn ghost" href="#/chat/nova">Testar no chat</a>
     </form>
     <form id="horario" class="cal-card stack gap-top">
       <h3>🙋 Quando o cliente chama a equipe</h3>
