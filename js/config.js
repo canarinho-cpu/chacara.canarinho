@@ -1,1 +1,1 @@
-const A={SUPABASE_URL:"https://qbyatbgxmawmiqlikbno.supabase.co",SUPABASE_ANON_KEY:"sb_publishable_GSZiLrSpiqV9CBDPRkp6Uw_AGkwOeIv",VAPID_PUBLIC_KEY:"BFRuxRgT3MXQvdSVk07ytzzwqm7fw1aE7iQC70Fcz_9d7TxCa086z4buNRoAETqF1D6QRJ4JpokW5NJ6qB-zAtI"};export{A as CONFIG};
+const A={SUPABASE_URL:"https://qbyatbgxmawmiqlikbno.supabase.co",SUPABASE_ANON_KEY:"sb_publishable_GSZiLrSpiqV9CBDPRkp6Uw_AGkwOeIv",FUNCOES_REGIAO:"us-east-2",VAPID_PUBLIC_KEY:"BFRuxRgT3MXQvdSVk07ytzzwqm7fw1aE7iQC70Fcz_9d7TxCa086z4buNRoAETqF1D6QRJ4JpokW5NJ6qB-zAtI"};export{A as CONFIG};
