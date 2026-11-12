@@ -399,7 +399,7 @@ import{sb as E,state as j,$ as m,$$ as U,view as Xa,go as La,toast as A,fail as 
           <input name="chave" maxlength="77" value="${v(e.pix_chave)}" autocomplete="off" spellcheck="false">
           <small class="pix-valida" id="pix-valida" aria-live="polite"></small></label>
         <label class="field"><span>Nome do recebedor <small class="muted">(como aparece no banco)</small></span>
-          <input name="nome" maxlength="25" value="${v(e.pix_nome)}" autocomplete="off">
+          <input name="nome" maxlength="30" value="${v(e.pix_nome)}" autocomplete="off">
           <small class="muted pix-conta" data-conta="nome"></small></label>
         <label class="field"><span>Cidade</span>
           <input name="cidade" maxlength="15" value="${v(e.pix_cidade)}" autocomplete="off">
